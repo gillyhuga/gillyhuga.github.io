@@ -34,6 +34,26 @@ strong{
     position: relative;
     box-sizing: border-box;
 }
+/* HEADER */
+.nav-header{
+	position: relative;
+    top: 40px;
+    z-index: 100;
+}
+.nav-header .nav {
+    width: 100%;
+    align-items: center;
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.nav-header .nav .nav-header-home {
+    width: 70%;
+}
 /* HOME */
 .home{
 	height: 1;
