@@ -84,6 +84,12 @@ a{
     width: 100%;
 	height: 100vh;
 }
+.fp-tableCellAbout{
+	display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+	height: 100%;
+}
 .fp-section.fp-table{
 	display: table;
     table-layout: fixed;
@@ -183,9 +189,7 @@ a{
 .home{
 	height: 1;
 	display: flex;
-    justify-content: center;
-    
-	
+    justify-content: center;	
 }
 .home-profile-desc{
 	display: flex;
@@ -208,11 +212,43 @@ a{
     margin-bottom: 15%;
 	text-align:left;
 }
-.home-profile-desc{
 
+/* ABOUT */
+.about{
+	height: 100%;
+	width: 100;
+	display: flex;
+    justify-content: center;	
 }
+.about-profile-desc{
+	display: flex;
+	vertical-align:middle;
+	justify-content: center;
+    text-align: left;
+	margin-left: 10%;
+	margin-right: 10%;
+	
+}
+.about-profile-desc-item{
+	position: center;
+	
+}
+.about-profile-desc-item-name{
+	font-size: 25px;
+	margin-bottom: 2%;
+	
+}
+.about-profile-desc-item-position{
+	font-size: 15px;
+    margin-bottom: 15%;
+	
+}
+
 /* BUTTON */
 .home-profile-button {
+    text-align: center;
+}
+.about-resume-button {
     text-align: center;
 }
 .button{
@@ -292,6 +328,16 @@ a{
 }
 .home-profile-button {
     text-align: left;
+}
+.about-profile-desc-item-name{
+	font-size: 40px;
+	margin-bottom: 2%;
+	
+}
+.about-profile-desc-item-position{
+	font-size: 25px;
+    margin-bottom: 15%;
+	
 }
 
 
