@@ -72,7 +72,7 @@ a{
     margin-left: auto;
 }
 .containerAbout {
-    z-index: 2;
+	z-index: 2;
     position: absolute;
     background: white;
     line-height: 30px;
@@ -82,7 +82,7 @@ a{
     margin-right: auto;
     margin-left: auto;
     color: grey;
-	border-radius: 100px 100px;
+	
 }
 .fullpage_wrapper{
 	height: 100%;
@@ -143,6 +143,7 @@ a{
     padding: 2rem;
     background-color: var(--second-color);
     transition: .5s;
+	
   }
 }
 .nav__item{
@@ -411,7 +412,19 @@ a{
     margin-bottom: 15%;
 	
 }
-
+.containerAbout {
+    z-index: 2;
+    position: absolute;
+    background: white;
+    line-height: 30px;
+    font-weight: lighter;
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    color: grey;
+	border-radius: 7% 7%;
+}
 
   .nav{
     height: calc(var(--header-height) + 1rem);
