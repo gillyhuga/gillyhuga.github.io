@@ -86,7 +86,8 @@ a{
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    color: grey;	
+    color: grey;
+	border-radius: 20px 20px 0% 0%;
 }
 .fullpage_wrapper{
 	height: 100%;
@@ -246,6 +247,14 @@ a{
     overflow-y: scroll;
     overflow-x: hidden;
 }
+.stripe{
+	height: 10px;
+	background: grey;
+	margin-left: 37%;
+	margin-right: 37%;
+	margin-top: 10px;
+	border-radius: 10px 10px 10px 10px;
+}
 .about{
 	height: 100%;
 	width: 100;
@@ -308,7 +317,7 @@ a{
     right: 0;
     bottom: 0;
     display: block;
-    background: url(HERO.jpeg);
+    background: url(about.png);
     background-size: cover;
     transform-origin: center ;
     transform: translateZ(-1px) scale(2);
@@ -422,6 +431,14 @@ a{
     margin-left: auto;
     color: grey;
 	border-radius: 7% 7% 0% 0%;
+}
+.stripe{
+	height: 10px;
+	background: grey;
+	margin-left: 42%;
+	margin-right: 42%;
+	margin-top: 10px;
+	border-radius: 10px 10px 10px 10px;
 }
 
   .nav{
