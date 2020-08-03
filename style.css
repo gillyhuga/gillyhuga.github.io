@@ -5,6 +5,11 @@
   --header-height: 3rem;
   --font-semi: 600;
 }
+/*===== HIDE SCROLL BAR =====*/
+::-webkit-scrollbar{
+	display: none;
+	
+}
 
 /*===== Colores =====*/
 :root{
