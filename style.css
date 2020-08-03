@@ -74,12 +74,15 @@ a{
 .containerAbout {
     z-index: 2;
     position: absolute;
-    top: 100vh;
-    background: black;
+    background: white;
     line-height: 30px;
     font-weight: lighter;
-    padding: 40px;
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
     color: grey;
+	border-radius: 100px 100px;
 }
 .fullpage_wrapper{
 	height: 100%;
