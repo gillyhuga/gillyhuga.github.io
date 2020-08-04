@@ -13,8 +13,11 @@
 
 /*===== Colores =====*/
 :root{
-  --first-color: #4070F4;
-  --second-color: #0E2431;
+  --white-color: #fff9f2;
+  --green-color: #7bc678;
+  --black-color: #292d34;
+  --orange-color: #fe7648;
+  --pink-color: #ed8b9a;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -49,7 +52,27 @@
   --z-tooltip: 10;
   --z-fixed: 100;
 }
+/*===== FONT =====*/
+@font-face {
+   font-family: "Avenir";
+   src: url('assets/fonts/Avenir.OTF');
+}
+@font-face {
+   font-family: "AvenirBold";
+   src: url('assets/fonts/Avenir-Bold.OTF');
+}
+.pink-color{
+	color:var(--pink-color);
+}
+.body-background{
+	background-color:var(--white-color);
+}
 strong{
+	
+	font: var(--black-color);
+	font-family :AvenirBold;
+}
+.bold{
 	font-weight: bolder;
 }
 *,::before,::after{
@@ -67,7 +90,7 @@ ul{
 a{
   text-decoration: none;
 }
-/* LOADER */
+
 .container {
     width: 100%;
 	height: 100%;
@@ -115,7 +138,18 @@ a{
     box-sizing: border-box;
 }
 
+/* LOADER */
 .preloader {
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+	z-index: 99999;
+	background-color: #ffffff;
+	overflow: hidden;
+}
+.sec-preloader {
 	width: 100%;
 	height: 100%;
 	left: 0;
@@ -174,8 +208,8 @@ a{
  transform: scale(1);
 }
 }
-/* HEADER */
 
+/* HEADER */
 .l-header{
   width: 100%;
   position: fixed;
@@ -285,6 +319,7 @@ a{
 	font-size: 1rem;
     margin-bottom: 15%;
 	text-align:left;
+	font-family:Avenir
 }
 
 /* ABOUT */
@@ -429,7 +464,7 @@ a{
 
 /* TYPEWRITING */
 .txt-type > .txt {
-   
+   font-family:AvenirBold;
 }
 .cursor  {
   border-right: 0.2rem solid #777;

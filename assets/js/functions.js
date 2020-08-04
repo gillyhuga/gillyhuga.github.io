@@ -24,9 +24,13 @@ $(document).ready(function() {
     /* ------------------  LOADING SCREEN ------------------ */
 
     $(window).on("load", function() {
-        $(".preloader").fadeOut("5000");
-        $(".preloader").remove();
+        $(".sec-preloader").fadeOut(2000);
+        $(".sec-preloader").remove(2000);
     });
+	
+	setTimeout(function(){ 
+    $('.preloader').css('display', 'none');
+	}, 2000); // it will remove after 5 seconds
 
     /* ------------------  MODULE Click  ------------------ */
 
