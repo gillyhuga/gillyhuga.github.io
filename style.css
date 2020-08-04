@@ -311,7 +311,7 @@ a{
   background-color: var(--first-color);
 }
 .nav__logo{
-  font-size: 40px;
+  font-size: 30px;
 }
 .nav__toggle{
   color: var(--second-color);
@@ -681,5 +681,8 @@ a{
  margin-right: auto; 
  font-family: 'AvenirBold', cursive;
  top: 50%;
+}
+.nav__logo{
+  font-size: 40px;
 }
 }
