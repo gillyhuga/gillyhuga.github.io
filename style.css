@@ -458,7 +458,7 @@ a{
  display: block;
  margin-left:auto;
  margin-right: auto; 
- font-family: 'AvenirBold', cursive;
+ font-family: AvenirBold;
  top: 50%;
 }
 .contact-profile-icon{
@@ -679,7 +679,7 @@ a{
  display: block;
  margin-left:auto;
  margin-right: auto; 
- font-family: 'AvenirBold', cursive;
+ font-family: AvenirBold;
  top: 50%;
 }
 .nav__logo{
