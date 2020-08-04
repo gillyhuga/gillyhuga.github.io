@@ -119,6 +119,11 @@ strong{
 	font: var(--black-color);
 	font-family :AvenirBold;
 }
+.boldGreen{
+	font-weight: bolder;
+	color:#46c0ad;
+	font-family :AvenirBold;
+}
 .bold{
 	font-weight: bolder;
 }
@@ -222,7 +227,7 @@ a{
 	width: 100%;
 	height: 100%;
 	border-radius: 50%;
-	background-color: #ff7a5e;
+	background-color: #46c0ad;
 	opacity: 0.6;
 	position: absolute;
 	top: 0;
@@ -306,7 +311,7 @@ a{
   background-color: var(--first-color);
 }
 .nav__logo{
-  color: var(--second-color);
+  font-size: 40px;
 }
 .nav__toggle{
   color: var(--second-color);
@@ -412,6 +417,7 @@ a{
 	margin-right: 10%;
 	
 }
+
 .about-profile-desc-item{
 	position: center;
 	
@@ -426,6 +432,45 @@ a{
     margin-bottom: 15%;
 	
 }
+
+/* PARALLAX CONTACT*/
+.containerContact{
+ background-attachment: fixed;
+ background-position: center;
+ background-size: cover;
+ height: 100vh;
+}
+.text-box{
+ width: 100%;
+ height: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ background: #fff;
+ mix-blend-mode: screen;
+ color: #000;
+}
+.text-box h1{
+ font-size: 80px;
+ font-weight: 1000;
+ text-transform: uppercase;
+ display: block;
+ margin-left:auto;
+ margin-right: auto; 
+ font-family: 'AvenirBold', cursive;
+ top: 50%;
+}
+.contact-profile-icon{
+	display: flex;
+	vertical-align:middle;
+	justify-content: center;
+    text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	
+}
+
 /* PARALLAX*/
 .parallax {
     box-sizing: border-box;
@@ -489,6 +534,7 @@ a{
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
 /* FOOTER */
+
 .nav-footer{
 	position: sticky;
     bottom: 30px;
@@ -506,15 +552,13 @@ a{
   font-size: 1.5rem;
   color: var(--second-color);
   margin-bottom: 0;
-  margin-right: 15px;
-  
-	
+  margin-right: 15px;	
 }
+
 
 /* TYPEWRITING */
 .txt-type > .txt {
    font-family:AvenirBold;
-	color:	#656a97;
 }
 .cursor  {
   border-right: 0.2rem solid #777;
@@ -544,6 +588,7 @@ a{
 	justify-content: right;
     text-align: right;
 }
+
 .home-profile-desc-item-name{
 	font-size: 4rem;
 }
@@ -626,6 +671,15 @@ a{
     left: 50%;
     transform: translate(-50%, -50%);
 	font-size: 40px;
-	
+}
+.text-box h1{
+ font-size: 155px;
+ font-weight: 1000;
+ text-transform: uppercase;
+ display: block;
+ margin-left:auto;
+ margin-right: auto; 
+ font-family: 'AvenirBold', cursive;
+ top: 50%;
 }
 }
