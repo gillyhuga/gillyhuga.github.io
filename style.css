@@ -582,6 +582,14 @@ a{
 }
 
 @media screen and (min-width: 768px){
+	@font-face {
+   font-family: "Avenir";
+   src: url('assets/fonts/Avenir.OTF');
+}
+@font-face {
+   font-family: "AvenirBold";
+   src: url('assets/fonts/Avenir-Bold.OTF');
+}
 .home-profile-desc{
 	display: flex;
 	vertical-align:middle;
