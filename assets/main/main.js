@@ -25,6 +25,8 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction));
 
+
+
 /*===== TYPEWRITER =====*/
 class TypeWriter {
   constructor(txtElement, words, wait = 3000) {
