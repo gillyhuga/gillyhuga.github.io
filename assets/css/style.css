@@ -57,12 +57,12 @@
 @font-face {
    font-family: "Avenir";
    font-display: auto;
-   src: url('assets/fonts/Avenir.OTF');
+   src: url('../fonts/Avenir.OTF');
 }
 @font-face {
    font-family: "AvenirBold";
    font-display: auto;
-   src: url('assets/fonts/Avenir-Bold.OTF');
+   src: url('../fonts/Avenir-Bold.OTF');
 }
 
 .body-background{
@@ -469,7 +469,7 @@ a{
     right: 0;
     bottom: 0;
     display: block;
-    background: url(bg-vertical.jpg);
+    background: url(../img/bg-vertical.jpg);
     background-size: cover;
     transform-origin: center ;
     transform: translateZ(-1px) scale(2);
@@ -635,7 +635,7 @@ a{
     right: 0;
     bottom: 0;
     display: block;
-    background: url(bg-horizontal.jpg);
+    background: url(../img/bg-horizontal.jpg);
     background-size: cover;
     transform-origin: center ;
     transform: translateZ(-1px) scale(2);
