@@ -13,12 +13,9 @@
 
 /*===== Colores =====*/
 :root{
-  --white-color: #fff9f2;
-  --green-color: #7bc678;
-  --black-color: #292d34;
-  --orange-color: #fe7648;
-  --pink-color: #ed8b9a;
-  --greenSoft-color: #46c0ad;
+  --primary-color: #fff9f2;
+  --second-color: #46c0ad;
+  --btn-color:  #4a5968;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -53,6 +50,38 @@
   --z-tooltip: 10;
   --z-fixed: 100;
 }
+
+
+
+.text li{
+  display:inliine-block;
+  float:left;
+  font-weight:700;
+  font-size:30px;
+  font-family: 'Nunito', sans-serif;
+  color: var(--second-color);
+  opacity:1;
+  transition: all 0.3s ease-in-out;
+  max-width: 2em;
+}
+
+
+.text.hiden li.spaced{
+  padding-left:0;
+}
+.text li.spaced{
+padding-left:0.5em;
+}
+.text{
+  /* transform: translateX(-50%) translateY(-50%); */
+  list-style: none;
+  border-bottom: 0;
+}
+
+.text.hidden li.char{
+  opacity:0;
+  max-width: 0;
+}
 /*===== FONT =====*/
 
 
@@ -66,7 +95,7 @@ strong{
 }
 .boldGreen{
 	font-weight: bolder;
-	color:var(--greenSoft-color);
+	color:var(--second-color);
 	font-family: 'Nunito', sans-serif;
 }
 .bold{
@@ -263,7 +292,7 @@ a{
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: var(--second-color);
 }
 .nav__logo{
   font-size: 30px;
@@ -284,22 +313,14 @@ a{
   top: 2rem;
   background-color: var(--first-color);
 }
-
+.active::after:hover{
+  color: var(--first-color);
+}
 /*=== Show menu ===*/
 .show{
   right: 0;
 }
 
-/*Active menu*/
-.active::after{
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 0.18rem;
-  left: 0;
-  top: 2rem;
-  background-color: var(--first-color);
-}
 /* HOME */
 .home{
 	height: 1;
@@ -485,6 +506,7 @@ a{
     letter-spacing: 1px;
 }
 .button:hover{
+  color: var(--second-color);
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
 /* FOOTER */
@@ -512,13 +534,16 @@ a{
 }
 .footer__icon{
   font-size: 1.5rem;
-  color: var(--second-color);
+  color: var(--btn-color);
   margin-bottom: 0;
   margin-right: 15px;	
 }
+.footer__icon:hover{
+  color: var(--second-color);
+}
 .footer__icon-contact{
   font-size: 1.5rem;
-  color: var(--second-color);
+  color: var(--btn-color);
   margin-bottom: 0;
   margin-right: 7.5px;	
   margin-left:7.5px;
@@ -589,12 +614,12 @@ a{
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    color: grey;
+    color: var(--btn-color);;
 	border-radius: 7% 7% 0% 0%;
 }
 .stripe{
 	height: 10px;
-	background: grey;
+	background: var(--btn-color);;
 	margin-left: 42%;
 	margin-right: 42%;
 	margin-top: 10px;
@@ -612,11 +637,15 @@ a{
     margin-left: var(--mb-6);
     margin-bottom: 0;
   }
+  
   .nav__toggle{
     display: none;
   }
   .nav__link{
-    color: var(--second-color);
+    color: var(--btn-color);
+  }
+  .nav__link:hover{
+    color :var(--second-color);
   }
   .parallax::before {
     content: "";
@@ -654,4 +683,5 @@ a{
 .nav__logo{
   font-size: 40px;
 }
+
 }
