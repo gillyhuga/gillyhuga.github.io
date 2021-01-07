@@ -1,10 +1,9 @@
-$(document).ready(function() {
-    var text = $(".text");
+(function() {
 	"use strict";
 	/*[pan and well CSS scrolls]*/
 	var pnls = document.querySelectorAll('.panel').length,
 		scdir, hold = false;
-
+        var text = $(".text");
 	function _scrollY(obj) {
 		var slength, plength, pan, step = 100,
 			vh = window.innerHeight / 100,
