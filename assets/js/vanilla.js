@@ -44,9 +44,9 @@
 			dY,
 			threshold = 20,
 			/*[min distance traveled to be considered swipe]*/
-			slack = 30,
+			slack = 100,
 			/*[max distance allowed at the same time in perpendicular direction]*/
-			alT = 10,
+			alT = 1000,
 			/*[max time allowed to travel that distance]*/
 			elT, /*[elapsed time]*/
 			stT; /*[start time]*/
