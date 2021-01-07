@@ -13,7 +13,7 @@
 
 /*===== Colores =====*/
 :root{
-  --primary-color: #fff9f2;
+  --primary-color: #ffffff;
   --second-color: #46c0ad;
   --btn-color:  #4a5968;
 }
@@ -287,6 +287,7 @@ a{
 }
 .nav__link:hover{
   position: relative;
+  color :var(--second-color);
 }
 .nav__link:hover::after{
   position: absolute;
@@ -716,9 +717,10 @@ body {
 .top {
 	font-size: 80%;
 	color: black;
-	position: relative;
+	position: relative ;
 	top: -.2em;
-	cursor: pointer;
+  cursor: pointer;
+  text-align: right;
 }
 
 .panel {
@@ -726,7 +728,6 @@ body {
 	height: 100vh;
 	overflow: hidden;
 	font-size: 10vmin;
-	padding: 1em;
 	box-sizing: border-box;
 	color: black;
 	cursor: default;
