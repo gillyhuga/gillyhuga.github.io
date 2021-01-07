@@ -42,7 +42,7 @@
 			sY,
 			dX,
 			dY,
-			threshold = 100,
+			threshold = 50,
 			/*[min distance traveled to be considered swipe]*/
 			slack = 50,
 			/*[max distance allowed at the same time in perpendicular direction]*/
