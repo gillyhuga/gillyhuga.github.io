@@ -1,5 +1,5 @@
 /*===== GOOGLE FONTS =====*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 /*===== VARIABLES CSS =====*/
 :root{
   --header-height: 3rem;
@@ -23,7 +23,7 @@
 
 /*===== Fuente y tipografia =====*/
 :root{
-  --body-font: 'Poppins', sans-serif;
+  --body-font: 'Nunito', sans-serif;
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: 0.938rem;
@@ -54,29 +54,20 @@
   --z-fixed: 100;
 }
 /*===== FONT =====*/
-@font-face {
-   font-family: "Avenir";
-   font-display: auto;
-   src: url('../fonts/Avenir.OTF');
-}
-@font-face {
-   font-family: "AvenirBold";
-   font-display: auto;
-   src: url('../fonts/Avenir-Bold.OTF');
-}
+
 
 .body-background{
-	background-color: #ffff);
+	background-color: #ffffff;
 }
 strong{
 	
 	font: var(--black-color);
-	font-family :AvenirBold;
+	font-family: 'Nunito', sans-serif;
 }
 .boldGreen{
 	font-weight: bolder;
 	color:var(--greenSoft-color);
-	font-family :AvenirBold;
+	font-family: 'Nunito', sans-serif;
 }
 .bold{
 	font-weight: bolder;
@@ -335,7 +326,7 @@ a{
 	font-size: 1.3rem;
     margin-bottom: 15%;
 	text-align:left;
-	font-family:Avenir
+	font-family: 'Nunito', sans-serif;
 }
 
 /* ABOUT */
@@ -345,7 +336,7 @@ a{
     width: 100%;
     height: 100%;
     overflow: hidden;
-    font-family: "Monument Extended", Arial, Helvetica, sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 .bodyAbout {
     color: white;
@@ -421,7 +412,7 @@ a{
  text-transform: uppercase;
  display: block;
  text-align:center; 
- font-family: AvenirBold;
+ font-family: 'Nunito', sans-serif;
  top: 50%;
 }
 .contact-profile-icon{
@@ -536,7 +527,7 @@ a{
 
 /* TYPEWRITING */
 .txt-type > .txt {
-   font-family:AvenirBold;
+  font-family: 'Nunito', sans-serif;
 }
 .cursor  {
   border-right: 0.2rem solid #777;
@@ -657,7 +648,7 @@ a{
  text-transform: uppercase;
  display: block;
  text-align:center;
- font-family: AvenirBold;
+ font-family: 'Nunito', sans-serif;
  top: 50%;
 }
 .nav__logo{
