@@ -5,23 +5,13 @@ var scrolled=0;
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();
 
-        if(scroll >=300){
+        if(scroll >=10){
             text.removeClass("hidden");
             
         }
         else{
             text.addClass("hidden")
         }
-    });
-
-
-		$("#project").on("click" ,function(){
-            scrolled=scrolled+300;
-    
-            $(".main").animate({
-                    scrollTop:  scrolled
-               });
-
     });
  });
 

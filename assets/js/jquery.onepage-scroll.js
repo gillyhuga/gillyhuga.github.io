@@ -263,7 +263,12 @@
     $(document).ready(function () {
       var scrolled = 0;
 
-      $("#project").on("click", function () {
+      $("#project").on("click" , function () {
+        el.moveDown();
+
+      });
+
+      $("#project").on("touchstart" , function () {
         el.moveDown();
 
       });
