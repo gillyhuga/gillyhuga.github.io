@@ -518,6 +518,11 @@ a{
 }
 .button:hover{
   color: var(--second-color);
+  
+}
+.button:focus{
+  outline: none;
+  
 }
 /* FOOTER */
 
