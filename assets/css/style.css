@@ -67,7 +67,7 @@
 }
 
 
-.text.hiden li.spaced{
+.text.hidden li.spaced{
   padding-left:0;
 }
 .text li.spaced{
@@ -553,6 +553,8 @@ a{
   margin-bottom: 0;
   margin-right: 15px;	
 }
+
+
 .footer__icon:hover{
   color: var(--second-color);
 }
