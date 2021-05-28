@@ -27,6 +27,7 @@
   --normal-font-size: 0.938rem;
 }
 @media screen and (min-width: 768px){
+  
   :root{
     --big-font-size: 3.5rem;
     --h2-font-size: 2rem;
@@ -52,7 +53,10 @@
   --z-fixed: 100;
 }
 
-
+.img-project{
+  width: 450px;
+  height: 350px;
+}
 
 .text li{
   display:inliine-block;
@@ -271,6 +275,11 @@ a{
   font-weight: var(--font-semi);
 }
 @media screen and (max-width: 768px){
+  .img-project{
+    width: 100%;
+    height: 100%;
+  }
+
   .nav__menu{
     position: fixed;
     top: var(--header-height);
@@ -619,6 +628,11 @@ outline: none;
 }
 
 @media screen and (min-width: 768px){
+  .img-project{
+    width: 100%;
+    height: 100%;
+  }
+
   .button{
     border: 2px solid var(--btn-color);
   border-radius: 25px;
